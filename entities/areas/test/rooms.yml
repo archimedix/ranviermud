@@ -10,10 +10,10 @@
   exits: 
     - 
       location: 2
-      direction: 'north'
+      direction: 'nord'
     - 
       location: 3
-      direction: 'ladder'
+      direction: 'soffitta'
       leave_message: 
         en: ' climbs up the ladder.'
         it: ' ti arrampichi in soffitta.'
@@ -33,7 +33,7 @@
   exits: 
     - 
       location: 1
-      direction: 'south'
+      direction: 'sud'
 - 
   title: 
     en: 'Ladder'
@@ -43,12 +43,12 @@
   script: '3.js'
   description: 
     en: 'You''re up a ladder, how silly.'
-    en: 'Sei salito in una soffitta vuota, che cretino.'
+    it: 'Sei salito in una soffitta vuota, che cretino.'
     es: 'ES - You''re up a ladder, how silly.'
   exits: 
     - 
       location: 1
-      direction: 'down'
+      direction: 'giu'
       leave_message: 
         en: ' slides down the ladder.'
         it: ' sciendi dalla soffitta.'

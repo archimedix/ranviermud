@@ -1,6 +1,8 @@
 CANT_WEAR:
     en: "You're already wearing $[1]."
+    it: "Lo stai già indossando $[1]."
     es: "ES-You're already wearing $[1]."
 ITEM_NOT_FOUND:
     en: "You aren't carrying anything by that name."
+    it: "Non hai con te nulla con quel nome."
     es: "ES-You aren't carrying anything by that name."

@@ -1,6 +1,8 @@
 CANT_WIELD:
     en: "You're already wielding $[1]."
+    it: "Stai già afferrando $[1]."
     es: "ES-You're already wielding $[1]."
 ITEM_NOT_FOUND:
     en: "You aren't carrying anything by that name."
+    it: "Non hai nulla con quel nome con te."
     es: "ES-You aren't carrying anything by that name."
