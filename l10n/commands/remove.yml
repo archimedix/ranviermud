@@ -1,6 +1,8 @@
 ITEM_NOT_EQUIPPED:
     en: "You're not wearing it but to keep from embarassing yourself you put it on then remove it."
+    it: "Non lo stai indossando."
     es: "ES-You're not wearing it but to keep from embarassing yourself you put it on then remove it."
 ITEM_NOT_FOUND:
     en: "You aren't wearing anything like that."
+    it: "Non stai indossando quazlcosa di simile."
     es: "ES-You aren't wearing anything like that."

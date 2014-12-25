@@ -1,9 +1,11 @@
 - 
   title: 
     en: 'Test'
+    it: 'Test'
     es: 'ES - Test'
   description: 
     en: 'You are in the test room. there isn''t much here'
+    it: 'Sei entrato nella stanza, non sembra esserci molto qui'
     es: 'ES-You are in the test room. there isn''t much here'
   exits: 
     - 
@@ -14,16 +16,19 @@
       direction: 'ladder'
       leave_message: 
         en: ' climbs up the ladder.'
+        it: ' ti arrampichi in soffitta.'
         es: ' climbs up the ladder. ES'
   location: 1
   area: 'test'
 - 
   title: 
     en: 'Plain room'
+    it: 'Stanza vuota'
     es: 'ES - Plain room'
   location: 2
   description: 
     en: 'Not a lot going on here, just a plain room.'
+    it: 'Nulla da vedere qui, solo una stanza vuota.'
     es: 'ES - Not a lot going on here, just a plain room.'
   exits: 
     - 
@@ -32,11 +37,13 @@
 - 
   title: 
     en: 'Ladder'
+    it: 'Soffitta'
     es: 'ES-Ladder'
   location: 3
   script: '3.js'
   description: 
     en: 'You''re up a ladder, how silly.'
+    en: 'Sei salito in una soffitta vuota, che cretino.'
     es: 'ES - You''re up a ladder, how silly.'
   exits: 
     - 
@@ -44,4 +51,5 @@
       direction: 'down'
       leave_message: 
         en: ' slides down the ladder.'
+        it: ' sciendi dalla soffitta.'
         es: ' slides down the ladder. ES'

@@ -2,12 +2,15 @@
     vnum: 3
     short_description:
         en: "a leather helmet"
+        it: "un elmetto di cuoio"
         es: "el helmet de leathero"
     keywords:
         en: [ "leather helmet", "helmet", "helm" ]
+        it: [ "elmo", "elmetto", "cuoio" ]
         es: [ "hat", "somberero" ]
     description:
         en: "A roughly worn leather helmet."
+        it: "Un comune  elmetto di cuoio."
         es: "Leather. Hat."
     room: 1
     script: "3-leather_helmet.js"

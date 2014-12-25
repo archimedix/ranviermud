@@ -6,6 +6,13 @@ LEVELUP:
         You are now level $[1]
         You gained $[2] health and have been restored to full health.
         =============================================================</yellow></bold>
+    it: |
+        <bold><yellow>
+        =============================================================
+        Hai raggiunto un nuovo livello!
+        Ora sei al livello $[1]
+        Hai vinto $[2] punti ferita ed ora sei al massimo della vita.
+        =============================================================</yellow></bold>
     es: |
         <bold><yellow>
         =============================================================
@@ -16,7 +23,9 @@ LEVELUP:
 
 EXPGAIN:
     en: "<bold><blue>You gain $[1] experience!</blue></bold>"
+    it: "<bold><blue>Hai fatto $[1] punti esperienza!</blue></bold>"
     es: "ES-<bold><blue>You gain $[1] experience!</blue></bold>"
 NEWSKILL:
     en: "<bold><yellow>You gained a new skill: $[1]!</yellow></bold>"
+    it: "<bold><yellow>Hai raggiunto una nuova proficenza: $[1]!</yellow></bold>"
     es: "ES-<bold><yellow>You gained a new skill: $[1]!</yellow></bold>"

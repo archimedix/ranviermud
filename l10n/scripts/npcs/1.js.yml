@@ -1,6 +1,8 @@
 PLAYER_ENTER:
     en: "<bold><cyan>The guard says, \"I've got my eye on you...\"</cyan></bold>"
+    it: "<bold><cyan>La guardia dice, \"Ti tengo d'occhio...\"</cyan></bold>"
     es: "<bold><cyan>ES-The guard says, \"I've got my eye on you...\"</cyan></bold>"
 PLAYER_DROP:
     en: "<bold><cyan>The guard says \"Hey! No littering!\""
+    it: "<bold><cyan>La guardia dice \"Hey! Niente spazzatura qui!\""
     es: "<bold><cyan>ES-The guard says \"Hey! No littering!\""

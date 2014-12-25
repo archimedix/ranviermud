@@ -1,9 +1,12 @@
 ITEM_WORN:
     en: "You're wearing that, remove it first."
+    it: "Lo stai indossando, rimuovilo prima."
     es: "ES-You're wearing that, remove it first."
 ITEM_DROP:
     en: "You drop $[1]."
+    it: "Hai posato $[1]."
     es: "ES-You drop $[1]."
 ITEM_NOT_FOUND:
     en: "You don't see that here."
+    it: "Non lo vedi qui attorno."
     es: "ES-You don't see that here."

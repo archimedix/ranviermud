@@ -1,21 +1,28 @@
 TACKLE:
     en: "Tackle"
+    it: "Affronta"
     es: "ES-Tackle"
 TACKLE_DESC:
     en: "Tackle your opponent for 120% weapon damage"
+    it: "Affronta l'avversario per il 120% di danno"
     es: "ES-Tackle your opponent for 120% weapon damage"
 TACKLE_NOCOMBAT:
     en: "You're not in combat."
+    it: "Non stai combattendo."
     es: "ES-You're not in combat."
 TACKLE_DAMAGE:
     en: "You tackle your opponent for $[1] damage and they stagger heavily."
+    it: "Affronta il tuo avversario per $[1] ferita e lo fai barcollare."
     es: "ES-You tackle your opponent for $[1] damage and they stagger heavily."
 TACKLE_RECOVER:
     en: "Your opponent gathers their composure."
+    it: "Il tuo avversario si ricompone."
     es: "ES-Your opponent gathers their composure."
 TACKLE_COOLDOWN:
     en: "You can't use that skill yet."
+    it: "Non puoi ancora usare quella capacità."
     es: "ES-You can't use that skill yet."
 TACKLE_COOLDOWN_END:
     en: "You can use tackle again."
+    it: "Puoi affrontarlo di nuovo."
     es: "ES-You can use tackle again."

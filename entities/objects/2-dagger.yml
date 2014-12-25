@@ -2,12 +2,15 @@
     vnum: 2
     short_description:
         en: "a dagger"
+        it: "una daga corta"
         es: "a main gauche"
     keywords:
         en: [ "dagger", "short", "pointy" ]
+        it: [ "daga", "corta"]
         es: [ "gauche", "main", "dagger" ]
     description:
         en: "A very point dagger. Edges are a bit dull though."
+        it: "Una daga molto piccola ma molto ben affilata."
         es: "ES-A very point dagger. Edges are a bit dull though."
     room: 1
     behaviors: "wieldable"

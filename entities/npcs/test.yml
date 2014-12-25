@@ -4,12 +4,15 @@
   script: '1.js'
   keywords:
     en: ['guard', 'guardsman']
+    it: ['guardia', 'guardiano']
     es: ['guardia', 'defensor']
   short_description:
     en: 'A cityguard keeps watch, standing stoically'
+    it: 'Un difensore cittadino osserva stoicamente ''l infinito'
     es: 'Un guardia vigila, de pie estoicamente'
   description:
     en: 'Dressed in militia regalia, the weathered guard eyes you carefully.'
+    it: 'Vestito in pompa magna la guardia reale ti guarda sospettoso.'
     es: 'ES-Dressed in militia regalia, the weathered guard eyes you carefully.'
   behaviors: "rtcombat"
   attributes:

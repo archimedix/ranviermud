@@ -2,12 +2,15 @@
     vnum: 1
     short_description:
         en: "a longsword"
+        it: "una lunga spada"
         es: "A rapier"
     keywords:
         en: [ "longsword", "sword", "long" ]
+        it: [ "spada", "lunga" ]
         es: [ "rapier", "sword" ]
     description:
         en: "A fairly plain, although sharp, steel longsword."
+        it: "Una magnifica spadona ben bilanciata."
         es: "Curved. Sword."
     room: 1
     script: "1-sword.js"

@@ -1,33 +1,44 @@
 WELCOME:
     en: "<yellow>Welcome back, $[1]</yellow>"
+    it: "<yellow>Ben tornato, $[1]</yellow>"
     es: "ES-Welcome back, $[1]"
 NAME_PROMPT:
     en: "What is your character's name: "
+    it: "Quale è il nome del tuo personaggio: "
     es: "ES-What is your character's name: "
 INVALID_NAME:
     en: "Sorry, that's not a valid name."
+    it: "Mi spiace, il nome non è valido."
     es: "ES-Sorry, that's not a valid name."
 NAME_TAKEN:
     en: "Sorry, that name is taken."
+    it: "SMi spiace il nome è stato già assegnato."
     es: "ES-Sorry, that name is taken."
 PASSWORD:
     en: "Password: "
+    it: "Password: "
     es: "ES-Password: "
 PASSWORD_FAIL:
     en: "Sorry, try again..."
+    it: "Riprova di nuovo..."
     es: "ES-Sorry, try again..."
 PASSWORD_EXCEEDED:
     en: "You have exceeded the maximum password attempts."
+    it: "Hai superato il massimo numero di tentativi."
     es: "ES-You have exceeded the maximum password attempts."
 PASSWORD_REPEAT:
     en: "Repeat Password: "
+    it: "Ripeti Password: "
     es: "ES-Repeat Password: "
 EMPTY_PASS:
     en: "Well that's not very secure is it? Try again, champ."
+    it: "Sembra davvero troppo semplice, riprova."
     es: "ES-Well that's not very secure is it? Try again, champ."
 CLASS_SELECT:
     en: "What class would you like to play? "
+    it: "In quale classe vuoi giocare? "
     es: "ES-What class would you like to play? "
 INVALID_CLASS:
     en: "Sorry, that's not a valid class."
+    en: "Mi spiace, non sembra essere una classe valida."
     es: "ES-Sorry, that's not a valid class."

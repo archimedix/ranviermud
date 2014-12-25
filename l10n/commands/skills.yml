@@ -1,7 +1,9 @@
 SKILL_DESC:
     en: "Description: $[1]"
+    it: "Descrizione: $[1]"
     es: "ES-Description: $[1]"
 SKILL_COOLDOWN:
     en: "Cooldown: <magenta>$[1]</magenta>"
+    it: "Cooldown: <magenta>$[1]</magenta>"
     es: "Cooldown: ES-<magenta>$[1]</magenta>"
 
