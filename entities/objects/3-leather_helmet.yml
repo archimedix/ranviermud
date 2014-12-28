@@ -17,5 +17,5 @@
     behaviors: "wearable"
     attributes:
         defense: 1
-    load_max: 4
+    load_max: 2
 - *leather_helmet

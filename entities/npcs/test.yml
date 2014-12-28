@@ -8,7 +8,7 @@
     es: ['guardia', 'defensor']
   short_description:
     en: 'A cityguard keeps watch, standing stoically'
-    it: 'Un difensore cittadino osserva stoicamente ''l infinito'
+    it: 'Un difensore cittadino osserva stoicamente l'' infinito'
     es: 'Un guardia vigila, de pie estoicamente'
   description:
     en: 'Dressed in militia regalia, the weathered guard eyes you carefully.'
@@ -22,10 +22,8 @@
     damage: 7-16
     level: 4
     experience: 1000
-  load_max: 7
+  load_max: 2
 - *guard
 - *guard
 - <<: *guard
-  room: 1
-- <<: *guard
-  room: 1
+  room: 2

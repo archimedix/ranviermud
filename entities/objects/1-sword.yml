@@ -12,11 +12,11 @@
         en: "A fairly plain, although sharp, steel longsword."
         it: "Una magnifica spadona ben bilanciata."
         es: "Curved. Sword."
-    room: 1
+    room: 21301
     script: "1-sword.js"
     behaviors: "wieldable"
     attributes:
         speed: 1.5
         damage: 10-20
-    load_max: 4
+    load_max: 1
 - *longsword

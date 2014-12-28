@@ -17,5 +17,5 @@
     attributes:
         speed: 1
         damage: 5-12
-    load_max: 3
+    load_max: 1
 

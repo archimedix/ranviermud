@@ -5,7 +5,7 @@
     es: 'ES - Test'
   description: 
     en: 'You are in the test room. there isn''t much here'
-    it: 'Sei entrato nella stanza, non sembra esserci molto qui'
+    it: 'Questa è la primissima stanza, da dove tutto iniziò, senti il verbo iniziare la vibrazione...'
     es: 'ES-You are in the test room. there isn''t much here'
   exits: 
     - 
@@ -13,7 +13,7 @@
       direction: 'nord'
     - 
       location: 3
-      direction: 'soffitta'
+      direction: 'up'
       leave_message: 
         en: ' climbs up the ladder.'
         it: ' ti arrampichi in soffitta.'
@@ -28,12 +28,15 @@
   location: 2
   description: 
     en: 'Not a lot going on here, just a plain room.'
-    it: 'Nulla da vedere qui, solo una stanza vuota.'
+    it: 'Questo è un posto vuoto, un passaggio verso altri mondi'
     es: 'ES - Not a lot going on here, just a plain room.'
   exits: 
     - 
       location: 1
       direction: 'sud'
+    - 
+      location: 21301
+      direction: 'nord'
 - 
   title: 
     en: 'Ladder'
@@ -43,7 +46,7 @@
   script: '3.js'
   description: 
     en: 'You''re up a ladder, how silly.'
-    it: 'Sei salito in una soffitta vuota, che cretino.'
+    it: 'qui è l''uopia infinita'
     es: 'ES - You''re up a ladder, how silly.'
   exits: 
     - 

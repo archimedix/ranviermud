@@ -1,0 +1,15 @@
+- &vaso
+    vnum: 4
+    short_description:
+        it: "un vaso di fiori"
+    keywords:
+        it: [ "vaso", "fiori"]
+    description:
+        it: "Un vaso di profumatissime rose."
+
+    room: 1
+    behaviors: "wieldable"
+    attributes:
+        speed: 1
+        damage: 5-12
+    load_max: 3
