@@ -41,7 +41,7 @@ exports.command = function (rooms, items, players, npcs, Commands)
 
 		// Render the room and its exits
 		player.say(room.getTitle(player.getLocale()));
-		player.say(room.getLocation(player.getLocale()));
+//		player.say(room.getLocation(player.getLocale()));
 		player.say(room.getDescription(player.getLocale()));
 		player.say('');
 

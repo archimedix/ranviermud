@@ -1,0 +1,129 @@
+- 
+  location: 10
+  title: 
+    it: 'Ingresso della metropolitana'
+  description: 
+    it: 'Capolinea SUD'
+  exits: 
+    - 
+      location: 11
+      direction: 'nord'
+  area: 'metro'
+- 
+  location: 11
+  title: 
+    it: 'Sotto il mare'
+  description: 
+    it: 'passaggio sottomarino per la daresia'
+  exits: 
+    - 
+      location: 12
+      direction: 'nord'
+    - 
+      location: 10
+      direction: 'sud'
+  area: 'metro'
+- 
+  location: 12
+  title: 
+    it: 'Sotto le montagne'
+  description: 
+    it: 'passaggio sotto i monti daresiani'
+  exits: 
+    - 
+      location: 13
+      direction: 'nord'
+    - 
+      location: 11
+      direction: 'sud'
+  area: 'metro'
+- 
+  location: 13
+  title: 
+    it: 'Fermata Elena'
+  description: 
+    it: 'Verso la città di Chyrellos'
+  exits: 
+    - 
+      location: 14
+      direction: 'nord'
+    - 
+      location: 12
+      direction: 'sud'
+    - 
+      location: 20
+      direction: 'est'
+  area: 'metro'
+- 
+  location: 14
+  title: 
+    it: 'Fermata Sendaria'
+  description: 
+    it: 'Verso la città di Lamorka'
+  exits: 
+    - 
+      location: 15
+      direction: 'nord'
+    - 
+      location: 13
+      direction: 'sud'
+  area: 'metro'
+- 
+  location: 15
+  title: 
+    it: 'Fermata Aldariana'
+  description: 
+    it: 'Verso la città di Deira'
+  exits: 
+    - 
+      location: 16
+      direction: 'nord'
+    - 
+      location: 14
+      direction: 'sud'
+  area: 'metro'
+- 
+  location: 16
+  title: 
+    it: 'Fermata Toldedrana'
+  description: 
+    it: 'Verso la città di Cimmura'
+  exits: 
+    - 
+      location: 17
+      direction: 'nord'
+    - 
+      location: 15
+      direction: 'sud'
+  area: 'metro'
+- 
+  location: 17
+  title: 
+    it: 'Capolinea NORD'
+  description: 
+    it: 'Verso il più estremo nord'
+  exits: 
+    - 
+      location: 16
+      direction: 'sud'
+  area: 'metro'
+- 
+  location: 20
+  title: 
+    it: 'Ingresso Chyrellos'
+  description: 
+    it: 'Vedi il simbolo eleno'
+  exits: 
+    - 
+      location: 13
+      direction: 'ovest'
+    - 
+      location: 21301
+      direction: 'sud'
+    - 
+      location: 21201
+      direction: 'nord'
+    - 
+      location: 21385
+      direction: 'est'
+  area: 'metro'
