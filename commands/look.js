@@ -82,8 +82,8 @@ exports.command = function (rooms, items, players, npcs, Commands)
 		room.getExits().forEach(function (exit) {
             var nameLocation = rooms.getAt(exit.location);
             if (nameLocation) var nome =nameLocation.getTitle(player.getLocale());
-            if (!nome) nome="x";
-			player.write('<red>[' + exit.location + ']</red> ' + exit.direction + ' [' + nome  + ']\n' );
+            if (!nome) nome="<red>X</red>";
+			player.write('<cyan>[' + exit.location + ']</cyan> ' + exit.direction + ' [' + nome  + ']\n' );
 		});
 	//	player.say(']');
 	}
