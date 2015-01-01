@@ -41,7 +41,7 @@ exports.command = function (rooms, items, players, npcs, Commands)
 
 		// Render the room and its exits
 		player.say(room.getTitle(player.getLocale()));
-//		player.say(room.getLocation(player.getLocale()));
+//		player.say(room.getLocation());
 		player.say(room.getDescription(player.getLocale()));
 		player.say('');
 
@@ -76,13 +76,15 @@ exports.command = function (rooms, items, players, npcs, Commands)
 				player.say('<'+color+'>' + npcs.get(id).getShortDesc(player.getLocale()) + '</'+color+'>');
 			}
 		});
-		player.write('[');
+	//	player.write('[');
 		player.writeL10n(l10n, 'EXITS');
-		player.write(': ');
+		player.write(': \n');
 		room.getExits().forEach(function (exit) {
-
-			player.write(exit.direction + '[' + exit.location + '] ' );
+            var nameLocation = rooms.getAt(exit.location);
+            if (nameLocation) var nome =nameLocation.getTitle(player.getLocale());
+            if (!nome) nome="x";
+			player.write('<red>[' + exit.location + ']</red> ' + exit.direction + ' [' + nome  + ']\n' );
 		});
-		player.say(']');
+	//	player.say(']');
 	}
 };

@@ -13,7 +13,18 @@ exports.command = function (rooms, items, players, npcs, Commands)
             if (err) throw err;
             var chy = JSON.parse(data);
             console.log('lettura da file' + chy);
-            chy.push(vnum);
+
+            if(chy.indexOf(vnum) == -1) 
+            {
+                chy.push(vnum);
+            }
+            else
+            {
+                console.log(vnum + 'esiste gia');
+            }
+            
+            
+            // chy.push(vnum);
             
             var jChy = JSON.stringify(chy);
              fs.writeFile(file, jChy, function (err) {
