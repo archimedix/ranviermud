@@ -1,7 +1,7 @@
 - 
   location: 10
   title: 
-    it: 'Ingresso della metropolitana'
+    it: '<red>Metro Daresiana</red> - Ingresso'
   description: 
     it: 'Capolinea SUD'
   exits: 
@@ -12,7 +12,7 @@
 - 
   location: 11
   title: 
-    it: 'Sotto il mare'
+    it: '<red>Metro Daresiana</red> - Sotto il mare'
   description: 
     it: 'passaggio sottomarino per la daresia'
   exits: 
@@ -26,7 +26,7 @@
 - 
   location: 12
   title: 
-    it: 'Sotto le montagne'
+    it: '<red>Metro Daresiana</red> - Sotto le montagne'
   description: 
     it: 'passaggio sotto i monti daresiani'
   exits: 
@@ -40,24 +40,24 @@
 - 
   location: 13
   title: 
-    it: 'Fermata Elena'
+    it: '<red>Metro Daresiana</red> - Fermata <yellow>Chyrellos SUD</yellow>'
   description: 
     it: 'Verso la città di Chyrellos'
   exits: 
     - 
-      location: 14
+      location: 30
       direction: 'nord'
+    - 
+      location: 21301
+      direction: 'est'
     - 
       location: 12
       direction: 'sud'
-    - 
-      location: 20
-      direction: 'est'
   area: 'metro'
 - 
   location: 14
   title: 
-    it: 'Fermata Sendaria'
+    it: '<red>Metro Daresiana</red> - Fermata Sendaria'
   description: 
     it: 'Verso la città di Lamorka'
   exits: 
@@ -65,13 +65,13 @@
       location: 15
       direction: 'nord'
     - 
-      location: 13
+      location: 31
       direction: 'sud'
   area: 'metro'
 - 
   location: 15
   title: 
-    it: 'Fermata Aldariana'
+    it: '<red>Metro Daresiana</red> - Fermata Aldariana'
   description: 
     it: 'Verso la città di Deira'
   exits: 
@@ -85,7 +85,7 @@
 - 
   location: 16
   title: 
-    it: 'Fermata Toldedrana'
+    it: '<red>Metro Daresiana</red> - Fermata Toldedrana'
   description: 
     it: 'Verso la città di Cimmura'
   exits: 
@@ -99,7 +99,7 @@
 - 
   location: 17
   title: 
-    it: 'Capolinea NORD'
+    it: '<red>Metro Daresiana</red> - Capolinea NORD'
   description: 
     it: 'Verso il più estremo nord'
   exits: 
@@ -108,22 +108,36 @@
       direction: 'sud'
   area: 'metro'
 - 
-  location: 20
+  location: 30
   title: 
-    it: 'Ingresso Chyrellos'
+    it: '<red>Metro Daresiana</red> - <yellow> Fermata Chyrellos EST </yellow>'
   description: 
     it: 'Vedi il simbolo eleno'
   exits: 
     - 
-      location: 13
-      direction: 'ovest'
-    - 
-      location: 21301
-      direction: 'sud'
-    - 
-      location: 21201
+      location: 31
       direction: 'nord'
     - 
       location: 21385
       direction: 'est'
+    - 
+      location: 13
+      direction: 'sud'
+  area: 'metro'
+- 
+  location: 31
+  title: 
+    it: '<red>Metro Daresiana</red> - <yellow> Fermata Chyrellos NORD</yellow>'
+  description: 
+    it: 'Vedi il simbolo eleno'
+  exits: 
+    - 
+      location: 14
+      direction: 'nord'
+    - 
+      location: 21201
+      direction: 'est'
+    - 
+      location: 30
+      direction: 'sud'
   area: 'metro'
