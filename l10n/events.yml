@@ -42,3 +42,9 @@ INVALID_CLASS:
     en: "Sorry, that's not a valid class."
     en: "Mi spiace, non sembra essere una classe valida."
     es: "ES-Sorry, that's not a valid class."
+META_SELECT:
+    en: "What metatype would you like to play? "
+    it: "Quale razza vuoi essere? "
+INVALID_META:
+    en: "Sorry, that's not a valid metatype."
+    es: "Spiacente, quella razza non esiste."

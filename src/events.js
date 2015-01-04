@@ -376,23 +376,44 @@ var Events = {
 
 					// setPassword handles hashing
 					arg.setPassword(pass);
-					next(arg, 'class');
+					next(arg, 'meta');
 				});
 				break;
-			case 'class':
-				var classes = {w: '[W]arrior'};
-				arg.sayL10n(l10n, 'CLASS_SELECT');
-				for (var r in classes) {
-					arg.say(classes[r]);
+                case 'meta':
+                    var metas = {
+                        d: {
+                            display: '[D]warf',
+                            type: 'dwarf'
+                        },
+                        e: {
+                            display: '[E]lf',
+                            type: 'elf'
+                        },
+                        h: {
+                            display: '[H]uman',
+                                type: 'human'
+                        },
+                        o: {
+                            display: '[O]rc',
+                            type: 'orc'
+                        },
+                        t: {
+                            display: '[T]roll',
+                            type: 'troll'
+                        }
+				};
+				arg.sayL10n(l10n, 'META_SELECT');
+				for (var r in metas) {
+					arg.say(metas[r].display);
 				}
-				arg.getSocket().once('data', function (cls) {
-					cls = cls.toString().trim().toLowerCase();
-					var classes = {w: "warrior"};
-					if (!(cls in classes)) {
-						arg.sayL10n(l10n,'INVALID_CLASS');
+                    arg.getSocket().once('data', function (meta) {
+					meta = meta.toString().trim().toLowerCase();
+					// var metas = {w: "warrior"};
+					if (!(meta in metas)) {
+						arg.sayL10n(l10n,'INVALID_META');
 						return repeat();
 					}
-					arg.setAttribute('class', classes[cls]);
+					arg.setAttribute('meta', metas[meta].type);
 					next(arg, 'done');
 				});
 				break;

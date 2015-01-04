@@ -30,7 +30,25 @@ var Player = function(socket) {
 		health : 100,
 		level: 1,
 		experience: 0,
-		'class': ''
+		meta: '',
+		//Physical Attributes
+		body: 0,
+		agility: 0,
+		reaction: 0,
+		strength: 0,
+		//Mental Attributes
+		charisma: 0,
+		intuition: 0,
+		logic: 0,
+		willpower: 0,
+		//Special Attributes
+		edge: 0,
+		currentEdge: 0,
+		essence: 0,
+		magic: 0,
+		astralInit: 0,
+		matrixInit: 0,
+		initPasses: 0
 	};
 
 	// Anything affecting the player
