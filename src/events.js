@@ -317,12 +317,13 @@ var Events = {
 				});
 				break;
 			case 'locale':
-				arg.write("What language would you like to play in? [English, Spanish] ");
+				arg.write("What language would you like to play in? [English, Spanish, Italian] ");
 				arg.once('data', function (locale)
 				{
 					var locales = {
 						english: 'en',
-						spanish: 'es'
+						spanish: 'es',
+                        italian: 'it'
 					};
 					locale = locale.toString().trim().toLowerCase();
 					if (!(locale in locales)) {
