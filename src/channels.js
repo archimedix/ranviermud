@@ -23,5 +23,24 @@ exports.Channels = {
 			players.broadcast("<bold><magenta>[chat] " + player.getName() + ": " + args + "</magenta></bold>", player);
 			players.eachExcept(player, function (p) { p.prompt(); });
 		}
-	}
+	},
+    tell: {
+		name: 'tell',
+		description: 'Talk to a specific person',
+		use: function (args, player, players)
+            {
+                var nameEnd = args.indexOf(" ");
+                var target = args.substring(0,nameEnd);
+                var text = args.substring(nameEnd);
+                var exists = players.some(function(p){ return p.getName() === target; });
+                if (exists){
+                    players.broadcastIf("<magenta>" + player.getName() + " told you: " + text + "</magenta>", function(p){return p.getName() === target; });
+                    player.say("<magenta>You told " + target + ": " + text + "</magenta>", player);
+                }
+                else {
+                    player.say("<magenta>" + target + " is not logged in.</magenta>", player);
+                }
+                players.eachIf(function(p){ return p.getName() === player || p.getName() === target; }, function (p) { p.prompt(); });
+            }
+		}
 };
