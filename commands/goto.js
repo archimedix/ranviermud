@@ -1,4 +1,4 @@
-var l10n_file = __dirname + '/../l10n/commands/quit.yml';
+var l10n_file = __dirname + '/../l10n/commands/goto.yml';
 var l10n = require('../src/l10n')(l10n_file);
 exports.command = function (rooms, items, players, npcs, Commands)
 {
@@ -11,7 +11,7 @@ exports.command = function (rooms, items, players, npcs, Commands)
             player.setLocation(thing);
             player.say('Teleported to ' + room.getTitle(player.getLocale()));
         } else {
-            player.say('Room not exist ');
+            player.sayL10n(l10n, 'ROOM_NOT_FOUND')
         }
 	};
 };
