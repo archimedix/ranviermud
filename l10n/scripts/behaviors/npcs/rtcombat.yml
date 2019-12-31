@@ -20,7 +20,7 @@ PLAYER_MISS:
   es: "ES-<yellow>You miss.</yellow>"
 NPC_MISS:
   en: "<yellow>$[1] misses.</yellow>"
-  en: "<yellow>$[1] ha perso.</yellow>"
+  it: "<yellow>$[1] ha perso.</yellow>"
   es: "ES-<yellow>$[1] misses.</yellow>"
 ATTACK:
   en: "You attack $[1] and they move to defend themselves."

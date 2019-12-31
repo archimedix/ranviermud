@@ -40,7 +40,7 @@ CLASS_SELECT:
     es: "ES-What class would you like to play? "
 INVALID_CLASS:
     en: "Sorry, that's not a valid class."
-    en: "Mi spiace, non sembra essere una classe valida."
+    it: "Mi spiace, non sembra essere una classe valida."
     es: "ES-Sorry, that's not a valid class."
 META_SELECT:
     en: "What metatype would you like to play? "
